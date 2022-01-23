@@ -1,0 +1,217 @@
+.login-clean {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+.login-clean form {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.login-clean .illustration {
+  text-align: center;
+  padding: 0 0 20px;
+  font-size: 100px;
+  color: cadetblue;
+}
+
+.login-clean form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 8px;
+  height: 42px;
+}
+
+.login-clean form .btn-primary {
+  background: cadetblue;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.login-clean form .btn-primary:hover, .login-clean form .btn-primary:active {
+  background:cadetblue;
+}
+
+.login-clean form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.login-clean form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-clean form .forgot:hover, .login-clean form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+#drop-list {
+  position: absolute;
+  right: -4px;
+  top: 50px;
+  display: inline-block;
+  z-index: 1;
+}
+
+#drop-content {
+  display: none;
+  text-align: center;
+}
+
+#drop-content a {
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+#drop-content a:hover {
+  color: cadetblue;
+}
+
+#container {
+  position: fixed;
+  top: 5rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 3%;
+  width: 40rem;
+  height: 35rem;
+  background-color: #999;
+  z-index: 2;
+  display: none;
+}
+#container form{
+  margin-top: 10rem;
+}
+#content {
+  width: 100%;
+  height: 100%;
+}
+#content h2{
+  position: relative;
+  top: 5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+#content div{
+  float: left;
+}
+#lForm{
+  width: 50%;
+  height: 8rem;
+}
+.lFormContainer{
+  width: 100%;
+  height: 33%;
+}
+.flContainer{
+  width: 30%;
+  text-align: right;
+}
+.frContainer{
+  width: 70%;
+}
+.frContainer input{
+  width: 92%;
+  height: 100%;
+  border-radius: .3rem;
+  border-color: rgba(0, 0, 0, .3);
+}
+#rForm{
+  width: 50%;
+  height: 8rem;
+}
+.rFormContainer{
+  width: 100%;
+  height: 100%;
+}
+.frContainer textarea{
+  width: 92%;
+  height: 7rem;
+  border-width: .1rem;
+  border-radius: .3rem;
+  border-color: rgba(0, 0, 0, .3);
+}
+#bForm{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+#bForm input{
+  position: relative;
+  top: 4rem;
+  width: 4rem;
+  height: 2rem;
+  border-radius: .3rem;
+  border-color: rgba(0, 0, 0, .3);
+}
+
+#rpfContainer{
+  margin: auto;
+  top: 15rem;
+  border-radius: 2%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 35rem;
+  height: 25rem;
+  background-color: rgb(99, 99, 99);
+  z-index: 3;
+  display: none;
+}
+.rpfContent{
+  width: 100%;
+  float: left;
+}
+.rpfContent h2{
+  position: relative;
+  text-align: center;
+  top: 2rem;
+}
+.rpfc-m{
+  margin-top: 2rem;
+  text-align: center;
+}
+.rpfc-m input{
+  width: 70%;
+  height: 3rem;
+  border: .1rem solid rgba(0, 0, 0, .3);
+  position: relative;
+  margin-top: 1rem;
+}
+.rpfc-b{
+  text-align: center;
+}
+.rpfc-b input{
+  position: relative;
+  top: 3rem;
+}
