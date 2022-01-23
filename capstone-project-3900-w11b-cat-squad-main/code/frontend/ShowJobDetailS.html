@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html style="background: url(&quot;assets/img/david-von-diemar-M2i83vaw-_A-unsplash.jpg&quot;) center / cover repeat;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jobseeker - Applied Jobs</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aladin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andika">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+</head>
+
+<body id="page-top">
+<nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#" style="border-color: rgb(34, 33, 33);">JobSeeker</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="JobseekerHomePage.html">home</a></li>
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="savedjobs.html">saved jobs</a></li>
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="appliedjobs.html">applied jobs</a></li>
+
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-link js-scroll-trigger"
+                style="background: url(&quot;assets/img/3f9470b34a8e3f526dbdb022f9f19cf7.png&quot;) center / cover no-repeat; padding: 20px;"
+                onclick="openList()"><a class="nav-link js-scroll-trigger"></a></li>            
+            </ul>
+
+            <div id="drop-list">
+                <div id="drop-content">
+                    <a href="jprofile.html">Profile</a>
+                    <a href="resume.html">Resume</a>
+                    <a href='jcontactus.html'>Contact us</a>
+                    <a id = "logout" href="Index.html">Log Out</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" >
+        <div class="intro-body" style="background: url(&quot;assets/img/david-von-diemar-M2i83vaw-_A-unsplash.jpg&quot;) center / cover no-repeat;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <section class="contact-clean" name="searchResult" style="background: rgba(241,247,252,0.95); align-items: center; text-align: left; ">
+                          
+                        <center>
+                            <table id="myTable" border = "1" style="background: #ffffff;color: #ffffff; align-items: center;">
+                                <tr>
+                                    
+                                </tr>
+                            </table>   
+                        </center>        
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright © CAT SQUAD TEAM 2021</p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function openList() {
+            var dropList = document.getElementById("drop-content");
+            if (dropList.style.display !== "block")
+                dropList.style.display = "block";
+            else
+                dropList.style.display = "none";
+        }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+    <script type="module" src="my_js/ShowApply.js"></script>
+    <script type="module" src="my_js/controllogout.js"></script>
+</body>
+</html>

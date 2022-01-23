@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html style="background: url(&quot;assets/img/david-von-diemar-M2i83vaw-_A-unsplash.jpg&quot;) center / cover repeat;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jobseeker - Profile</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Adamina">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Advent+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aladin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alef">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andika">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arizonia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+</head>
+
+
+<body id="page-top">
+<nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#" style="border-color: rgb(34, 33, 33);">JobSeeker</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="JobseekerHomePage.html">home</a></li>
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="savedjobs.html">saved jobs</a></li>
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link js-scroll-trigger" href="appliedjobs.html">applied jobs</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-link js-scroll-trigger"
+                style="background: url(&quot;assets/img/3f9470b34a8e3f526dbdb022f9f19cf7.png&quot;) center / cover no-repeat; padding: 20px;"
+                onclick="openList()"><a class="nav-link js-scroll-trigger"></a></li>            
+            </ul>
+
+            <div id="drop-list">
+                <div id="drop-content">
+                    <a href="jprofile.html">Profile</a>
+                    <a href="resume.html">Resume</a>
+                    <a href='jcontactus.html'>Contact us</a>
+                    <a id = "logout" href="Index.html">Log Out</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" >
+        <div class="intro-body" style="background: url(&quot;assets/img/david-von-diemar-M2i83vaw-_A-unsplash.jpg&quot;) center / cover no-repeat; width: 500px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <section class="contact-clean" style="background: rgba(255, 255, 255, 0.55); align-items: center; margin-top: 100px;">
+                            <form  id =  "form" style="background: rgba(255, 255, 255, 0.95);">
+                                <h2 class="text-center">Generate a personalized resume</h2>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group"><input class="form-control" id = "label" type="text" name="label" placeholder="Please add a label to this resume"></div>
+                                        </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group"><input class="form-control"id ="firstname" type="text" name="firstname" placeholder="First Name"></div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group"><input class="form-control" id ="secondname" type="text" name="secondname" placeholder="Second Name"></div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="tigger" value="Female" id="Employer"><label class="form-check-label" for="formCheck-2">Female</label></div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="tigger" value="Male" id="Employer"><label class="form-check-label" for="formCheck-2">Male</label></div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="tigger" value="Gender diverse" id="Employer"><label class="form-check-label" for="formCheck-2">Gender diverse</label></div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="container">
+                                    <div class="row">
+                                        <form id = "form2">
+                                            <div class="col-md-6">
+                                                <div class="form-group"><input class="form-control" id ="email" type="text" name="email" placeholder="Email"></div>
+                                            </div>                                            
+                                            <div class="col-md-6">
+                                                <div class="form-group"><input class="form-control" id ="contactnum" type="text" name="contactnum" placeholder="Contact Number"></div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group"><input class="form-control" id ="major" type="text" name="major" placeholder="Major"></div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group"><input class="form-control" id ="degree" type="text" name="degree" placeholder="Degree"></div>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                            Birthday:</div>
+                                                <div class="form-group" style="height: 60px;">
+                                                    <label > Day </label>
+                                                    <select  class="form-control" id = "day" type="text" name="day" style="height: 40px;">
+                                                        <option value="empty" disabled selected>Please Select</option>
+                                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+                                                        <option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+                                                        <option>11</option><option>12</option><option>13</option><option>14</option><option>15</option>
+                                                        <option>16</option><option>17</option><option>18</option><option>19</option><option>20</option>
+                                                        <option>21</option><option>22</option><option>23</option><option>24</option><option>25</option>
+                                                        <option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+                                                        <option>31</option>
+
+                                                    </select>
+                                                </div>
+
+                                            
+                                                <div class="form-group" style="height: 60px;">
+                                                    <label > Month </label>
+                                                    <select  class="form-control" id = "month" type="text" name="month" style="height: 40px;">
+                                                        <option value="empty" disabled selected>Please Select</option>
+                                                        <option>January</option>
+                                                        <option>February</option>
+                                                        <option>March</option>
+                                                        <option>April</option>
+                                                        <option>May</option>
+                                                        <option>June</option>
+                                                        <option>July</option>
+                                                        <option>August</option>
+                                                        <option>September</option>
+                                                        <option>October</option>
+                                                        <option>November</option>
+                                                        <option>December</option>
+                                                    </select>
+                                                </div>
+                                          
+                                            <div class="form-group" style="height: 60px;">
+                                                <label > Year </label>
+                                                <select  class="form-control" id = "year" type="text" name="year" style="height: 40px;">
+                                                    <option value="empty" disabled selected>Please Select</option>
+                                                    <option>2021</option>
+                                                    <option>2020</option>                                                   
+                                                    <option>2019</option>
+                                                    <option>2018</option>
+                                                    <option>2017</option>
+                                                    <option>2016</option>
+                                                    <option>2015</option>
+                                                    <option>2014</option>
+                                                    <option>2013</option>
+                                                    <option>2012</option>
+                                                    <option>2011</option>
+                                                    <option>2010</option>
+                                                    <option>2009</option>
+                                                    <option>2008</option>
+                                                    <option>2007</option>
+                                                    <option>2006</option>
+                                                    <option>2005</option>
+                                                    <option>2004</option>
+                                                    <option>2003</option>
+                                                    <option>2002</option>
+                                                    <option>2001</option>
+                                                    <option>2000</option>
+                                                    <option>1999</option>
+                                                    <option>1998</option>
+                                                    <option>1997</option>
+                                                    <option>1996</option>
+                                                    <option>1995</option>
+                                                    <option>1994</option>
+                                                    <option>1993</option>
+                                                    <option>1992</option>
+                                                    <option>1991</option>
+                                                    <option>1990</option>
+                                                    <option>1989</option>
+                                                    <option>1988</option>
+                                                    <option>1987</option>
+                                                    <option>1986</option>
+                                                    <option>1985</option>
+                                                    <option>1984</option>
+                                                    <option>1983</option>
+                                                    <option>1982</option>
+                                                    <option>1981</option>
+                                                    <option>1980</option>
+                                                    <option>1979</option>
+                                                    <option>1978</option>
+                                                    <option>1977</option>
+                                                    <option>1976</option>
+                                                    <option>1975</option>
+                                                    <option>1974</option>
+                                                    <option>1973</option>
+                                                    <option>1972</option>
+                                                    <option>1971</option>
+                                                    <option>1970</option>
+                                                    <option>1969</option>
+                                                    <option>1968</option>
+                                                    <option>1967</option>
+                                                    <option>1966</option>
+                                                    <option>1965</option>
+                                                    <option>1964</option>
+                                                    <option>1963</option>
+                                                    <option>1962</option>
+                                                    <option>1961</option>
+                                                    <option>1960</option>
+                                                    <option>1959</option>
+                                                    <option>1958</option>
+                                                    <option>1957</option>
+                                                    <option>1956</option>
+                                                    <option>1955</option>
+                                                    <option>1954</option>
+                                                    <option>1953</option>
+                                                    <option>1952</option>
+                                                    <option>1951</option>
+                                                    <option>1950</option>
+                                                    <option>1949</option>
+                                                    <option>1948</option>
+                                                    <option>1947</option>
+                                                    <option>1946</option>
+                                                    <option>1945</option>
+                                                    <option>1944</option>
+                                                    <option>1943</option>
+                                                    <option>1942</option>
+                                                    <option>1941</option>
+                                                    <option>1940</option>
+                                                    <option>1939</option>
+                                                    <option>1938</option>
+                                                    <option>1937</option>
+                                                    <option>1936</option>
+                                                    <option>1935</option>
+                                                    <option>1934</option>
+                                                    <option>1933</option>
+                                                    <option>1932</option>
+                                                    <option>1931</option>
+                                                    <option>1930</option>
+                                                    <option>1929</option>
+                                                    <option>1928</option>
+                                                    <option>1927</option>
+                                                    <option>1926</option>
+                                                    <option>1925</option>
+                                                    <option>1924</option>
+                                                    <option>1923</option>
+                                                    <option>1922</option>
+                                                    <option>1921</option>
+                                                    <option>1920</option>                                                
+                                                </select>
+                                            </div>
+                                                
+                                            <br><br><br><br>
+                                            <div class="col-md-12">
+                                                <div type="text" name="text" style="padding-top: 10px;padding-bottom: 10px;"><h6>Please provide your top 3 skills</h6></div>
+                                            </div>
+                                            
+                                            <div class="col-md-4">
+                                                <div class="form-group"><input class="form-control" id = "skill1" type="text" name="skill1" placeholder="skill 1"></div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group"><input class="form-control" id = "skill2" type="text" name="skill2" placeholder="skill 2"></div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group"><input class="form-control" id = "skill3" type="text" name="skill3" placeholder="skill 3"></div>
+                                            </div>
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <form id = "form3">
+                                        <textarea class="form-control" id = "detail" name="skills" placeholder="Detailed work/education experinces, more information about yourself, etc." rows="14"></textarea>
+                                    </form>
+                                </div>
+                                <center><div class="form-group"><button id="Generate" class="btn btn-lg btn-primary btn-block" type="button" style="width: 200px; background-color: cadetblue; color: white;">Generate</button></div></center>
+                                
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <br><br><br>
+            <div class="col-lg-8 mx-auto" style="width:800px ;">
+                <section class="contact-clean" name="searchResult" style="background: rgba(255, 255, 255, 0.55); align-items: center; ">
+                    <center>
+                    <form action="/action_page.php">
+                        <p><h2>Upload your own resume</h2></p><input id = "pdftitle" type="text" name="jobname" placeholder="Resume Label" style="width:200px;">
+            
+                        <input type="file" id="resume" name="resume" accept="application/pdf"/>
+                        <button class="btn btn-lg btn-primary btn-block" type="button" id = "submit" style="width: 200px;">submit</button>
+                    </form></center>
+                    <br><br><br>
+
+                    <center><div ><h2 style="color: rgb(66, 65, 65);">Here are all your resumes</h2></div> </center> 
+                    <table id="myTable"  style="border-top:rgba(255, 255, 255, 0);width:  600px; background-color:rgb(255, 253, 243); font-size: larger; font-family: Poppins; ">
+                        <tr>
+                                
+                                </tr>
+                        
+                            </table>  
+                </section>
+  
+    </div>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright © CAT SQUAD TEAM <option><option>2021</option></option></p>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        function openList() {
+            var dropList = document.getElementById("drop-content");
+            if (dropList.style.display !== "block")
+                dropList.style.display = "block";
+            else
+                dropList.style.display = "none";
+        }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+    <script type="module" src="my_js/AddResume.js"></script>
+    <script type="module" src="my_js/ShowUserResume.js"></script>
+    <script type="module" src="my_js/UploadPDF.js"></script>
+    <script type="module" src="my_js/controllogout.js"></script>
+    
+</body>
+</html>
