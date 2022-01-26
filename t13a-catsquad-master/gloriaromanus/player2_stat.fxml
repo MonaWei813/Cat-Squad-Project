@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.player_statsController2">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="918.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stats2.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="113.0" layoutX="115.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngegg%20(6).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="82.0" layoutX="508.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngegg%20(8)%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="104.0" layoutX="115.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngegg%20(9)%20(1).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="800.0" layoutY="529.0" mnemonicParsing="false" onAction="#handleclose" text="close">
+         <font>
+            <Font name="Broadway" size="15.0" />
+         </font></Button>
+      <Text layoutX="228.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GOLD:">
+         <font>
+            <Font name="Broadway" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="579.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TREASURY:">
+         <font>
+            <Font name="Broadway" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="219.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NO. OF PROVINCE OWNED:">
+         <font>
+            <Font name="Broadway" size="17.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="523.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngegg%20(20).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="wealth" layoutX="295.0" layoutY="382.0" prefHeight="19.0" prefWidth="113.0" text="Label">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="provincenum" layoutX="467.0" layoutY="471.0" prefHeight="19.0" prefWidth="124.0" text="Label">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="treasury" layoutX="691.0" layoutY="390.0" prefHeight="19.0" prefWidth="113.0" text="Label">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="597.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turn:">
+         <font>
+            <Font name="Britannic Bold" size="25.0" />
+         </font>
+      </Text>
+      <Label fx:id="turn" layoutX="746.0" layoutY="462.0" prefHeight="48.0" prefWidth="124.0" text="Label">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

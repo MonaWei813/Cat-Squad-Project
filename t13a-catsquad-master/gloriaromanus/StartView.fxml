@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="homepage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1264.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.StartController">
+   <children>
+      <ImageView fitHeight="719.0" fitWidth="1286.0" layoutX="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newMain.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="494.0" fitWidth="642.0" layoutX="385.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngwing.com.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="NewGame" layoutX="512.0" layoutY="532.0" mnemonicParsing="false" onAction="#handleNewgame" prefHeight="31.0" prefWidth="104.0" text="New Game">
+         <font>
+            <Font name="Broadway" size="13.0" />
+         </font></Button>
+      <Button fx:id="history" layoutX="648.0" layoutY="532.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" text="Load Game">
+         <font>
+            <Font name="Broadway" size="12.0" />
+         </font></Button>
+   </children>
+</Pane>
